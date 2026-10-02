@@ -162,7 +162,7 @@ def main(request):
         )
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def run():
     return main(request)
 
