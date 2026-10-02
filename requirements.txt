@@ -1,0 +1,4 @@
+supabase
+google-cloud-storage
+flask
+gunicorn
